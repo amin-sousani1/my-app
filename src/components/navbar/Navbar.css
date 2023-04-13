@@ -1,0 +1,27 @@
+.nav{
+    /* background-color: aqua; */
+}
+
+.header{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    height: 100px;
+    background-color: rgb(245, 250, 255);
+}
+
+.nav-color{
+    color: black;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-color:hover{
+    color: #0D6EFD;
+    scale: 1.1;
+    text-decoration: 3px solid #0D6EFD underline;
+    transition: all .2s;
+}
+
+.nav-color:active{
+    scale: .8;
+}
