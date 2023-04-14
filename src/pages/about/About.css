@@ -1,7 +1,7 @@
 .about{
     width:1300px ;
     height: 430px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,14 +12,58 @@
 }
 
 .card1{
-    width: 30%;
+    width: 40%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 }
 .card2{
-    width: 70%;
+    width: 40%;
     height: 100%;
-    background-color: rgb(17, 255, 0);
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
+}
+
+.card1 div{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    border-radius: 10px;
+
+}
+.card2 div{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* .card2 div:hover{
+    scale: 1.1;
+    background-color: aqua;
+} */
+
+.strong{
+    font-size: 20px;
 }
